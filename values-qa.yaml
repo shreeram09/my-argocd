@@ -1,0 +1,7 @@
+# Values for qa namespace
+global:
+  namespace: qa
+  environment: qa
+  labels:
+    team: devops
+    env: qa

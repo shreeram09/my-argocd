@@ -1,0 +1,7 @@
+# Values for dev namespace
+global:
+  namespace: dev
+  environment: dev
+  labels:
+    team: devops
+    env: dev
