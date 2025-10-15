@@ -5,3 +5,16 @@ global:
   labels:
     team: devops
     env: qa
+  annotations: {}
+  imagePullSecrets: []
+
+# App specific overrides for QA
+app1:
+  replicaCount: 2
+  image:
+    tag: "1.21"
+
+app2:
+  replicaCount: 1
+  image:
+    tag: "2.4"
