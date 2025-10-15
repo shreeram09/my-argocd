@@ -11,5 +11,5 @@ spec:
     - name: wget
       image: busybox
       command: ['wget']
-      args: ['{{ include "my-argocd.fullname" . }}:{{ .Values.service.port }}']
+      args: ['{{ include "my-argocd.fullname" . }}:{{ .Values.app1.service.port }}']
   restartPolicy: Never
